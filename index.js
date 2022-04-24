@@ -31,3 +31,4 @@ app.get('/results',(req,res)=>{
     res.json(articles)
 }).catch(e=>console.log(e))
 })
+
